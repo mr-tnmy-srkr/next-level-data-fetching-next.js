@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "likes_count": 100
+      "likes_count": "1000"
     },
     {
       "id": 2,
