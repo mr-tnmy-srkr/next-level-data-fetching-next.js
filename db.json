@@ -1,0 +1,41 @@
+{
+   "posts" : [
+    {
+      "id": 1,
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "likes_count": 100
+    },
+    {
+      "id": 2,
+      "title": "Sample Title",
+      "description": "This is a sample description with fifty words. It contains information about the second JSON object in the array.",
+      "likes_count": 75
+    },
+    {
+      "id": 3,
+      "title": "JSON Example",
+      "description": "Here's an example of a JSON object with an ID, title, description, and likes count. This is the third object in the array.",
+      "likes_count": 120
+    },
+    {
+      "id": 4,
+      "title": "Data Structure",
+      "description": "A JSON object is a fundamental data structure in web development. It stores information in key-value pairs. This is the fourth object.",
+      "likes_count": 90
+    },
+    {
+      "id": 5,
+      "title": "Array of Objects",
+      "description": "Creating an array of objects is common in programming. It allows you to organize and manage multiple pieces of related data. Fifth object here.",
+      "likes_count": 80
+    },
+    {
+      "id": 6,
+      "title": "Web Development",
+      "description": "Web development involves creating dynamic and interactive websites. JSON is often used to transfer data between a server and a web application. Sixth object in the array.",
+      "likes_count": 110
+    }
+  ]
+  
+}
