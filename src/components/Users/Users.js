@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import styles from "./Users.module.css"
 
 const Users = () => {
   const [users, setUsers] = useState([]);
@@ -12,7 +13,7 @@ const Users = () => {
 
   return (
     <div>
-      <h1>Total users : {users.length}</h1>
+      <h1 className={styles.header_text}>Total users : {users.length}</h1>
       {users.map((user) => {
         return (
           <div
