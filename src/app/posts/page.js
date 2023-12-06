@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./Posts.module.css"
+import styles from "./Posts.module.css";
 
 const page = async () => {
   const res = await fetch("http://localhost:5000/posts", {
@@ -23,7 +23,7 @@ const page = async () => {
           <div className="card-body">
             <h2 className="card-title">{post.title}</h2>
             <p>{post.description}</p>
-            <p>Likes : {post.likes_count}</p>
+            <p>Likes : {post.likesCount}</p>
             <div className="card-actions justify-end">
               <Link href={`/posts/${post.id}`}>
                 <button className="btn btn-primary">See More</button>
